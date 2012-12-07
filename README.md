@@ -1,0 +1,3 @@
+rails training
+=============
+by bobby
