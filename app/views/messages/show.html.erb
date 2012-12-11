@@ -1,0 +1,21 @@
+<p>
+	you're now at <b>show.html.erb (message)</b>
+</p>
+
+<p id="notice"><%= notice %></p>
+<% @message.title %>
+<p>
+  <b>Title:</b>
+  <%= @message.title %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%= @message.body %>
+</p>
+
+<%= link_to 'View Reply', replies_path %> |
+<%= link_to 'Add Reply', new_reply_path %><br /><br />
+
+<%= link_to 'Edit This Message', edit_message_path(@message) %> |
+<%= link_to 'Back to Message', messages_path %>

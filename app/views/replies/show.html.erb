@@ -1,0 +1,20 @@
+<p>
+	you're now at <b>show.html.erb (reply)</b>
+</p>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @reply.name %>
+</p>
+
+<p>
+  <b>Reply:</b>
+  <%= @reply.reply %>
+</p>
+
+<%= link_to 'Edit', edit_reply_path(@reply) %> |
+<%= link_to 'Back To Messages', message_path %><br /><br />
+
+<%= link_to 'Back', replies_path %>
